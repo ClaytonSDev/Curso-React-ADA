@@ -1,0 +1,16 @@
+var numero = 20;
+var pi = 3.1415;
+var nome = "Clayton";
+var correta;
+var resultado = numero * pi;
+var numeros = [1, 2, 3, 4, 5];
+// const nomeDoUsuario = prompt("Qual é o seu nome?");
+// console.log(nomeDoUsuario?.toUpperCase());
+var idades = [];
+idades.push(23);
+idades.push(38);
+idades.push(12);
+idades.push(49);
+idades.push(16);
+var menoresDeIdade = idades.filter(function (idade) { return idade < 18; });
+console.log(menoresDeIdade);
